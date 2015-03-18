@@ -1,0 +1,12 @@
+Before everything thank you for choosing my project.
+
+How To Use:
+1. My project is based on C++ & Qt, so you should install GNU C++ Compiler & QtWebkit.
+For Install this programs you can run these commands in terminal:
+- sudo apt-get install build-essential
+- sudo apt-get install libqtwebkit-dev
+
+2. To compile the project goto the src folder in the project and run make in terminal.
+
+3. If everything going right you can run the project with running Judge.out file
+

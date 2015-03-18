@@ -75,9 +75,9 @@ DIST          = /usr/share/qt4/mkspecs/common/unix.conf \
 		/usr/share/qt4/mkspecs/features/lex.prf \
 		/usr/share/qt4/mkspecs/features/include_source_dir.prf \
 		Judge.pro
-QMAKE_TARGET  = Judge
+QMAKE_TARGET  = Judge.out
 DESTDIR       = 
-TARGET        = Judge
+TARGET        = Judge.out
 
 first: all
 ####### Implicit rules
