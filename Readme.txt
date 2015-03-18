@@ -14,8 +14,8 @@ Before everything thank you for choosing my project.
 	src\	Codes are in that folder
 		judge.cpp 	Implementation of the Judge class methods
 		judge.h		Definition of the Judge class instances and methods
-		Judge.pro	Qt Settings for compile
-		judge.sh	Shell file that include shell commands for judge
+		Judge.pro	Qt Settings for compiling
+		judge.sh	Shell file that include shell commands for judging
 		main.cpp	Call the methods to run the graphical environment
 		mainwindow.cpp 	Implementation of the Mainwindow class methods
 		mainwindow.h	Definition of the Mainwindow class instances and methods
