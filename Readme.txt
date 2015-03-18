@@ -30,7 +30,7 @@ Before everything thank you for choosing my project.
 3. Package Installation for Linux
 	a. Install packages need to run the project
 	 My project is based on C++ & Qt, so you should install GNU C++ Compiler & Qt Web kit.
-	 For Install these programs you can run these commands in terminal:
+	 For installing these programs you can run these commands in terminal:
 		- sudo apt-get install build-essential
 		- sudo apt-get install libqtwebkit-dev
 
