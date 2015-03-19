@@ -21,4 +21,5 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui
 
-RESOURCES +=
+RESOURCES += \
+    Icons.qrc

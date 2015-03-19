@@ -7,6 +7,8 @@ Judge::Judge()
 
 bool Judge::compileCode(QString command, QString code, QString name)
 {
+    code.simplified();
+    code.replace(QString(" "),QString("\\ "));
     removeFile(name);
     system(QString(command + " " + code + " -o" + name + " 2>compileOutput.txt").toStdString().c_str());
     char x;
@@ -20,6 +22,8 @@ bool Judge::compileCode(QString command, QString code, QString name)
 
 bool Judge::copyCode(QString source, QString dest)
 {
+    source.simplified();
+    source.replace(QString(" "),QString("\\ "));
     system(QString("cp " + source + " " + dest + " 2>cpOutput.txt").toStdString().c_str());     // copy file
     std::ifstream inp("cpOutput.txt");
     char x;
