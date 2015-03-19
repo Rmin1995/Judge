@@ -22,10 +22,14 @@ Before anything let me thank you for choosing my project.
 		mainwindow.ui	Graphical user interface of the project
 		Makefile	Compile settings of the project
 
+	sample\	There is a sample for project in this folder
+		yourCode.cpp	This code produce sum of two bignum number
+		corrCode.cpp	This code produce sum of two integer
+		testMaker.cpp	This code produce two random integer between 1 to 1000*1000*1000
+
 	Readme.txt	The explanation of the project
 	LICENSE		License of the project
 	README.md	A brief explanation of the project
-
 
 3. Package Installation for Linux
 	a. The necessary packages to be installed prior to this are as follows:
