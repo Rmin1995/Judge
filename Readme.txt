@@ -1,17 +1,17 @@
 	Judge Installation Guide
 		2015/03/18
-	Copyright (c) Armin Vakil
+	Copyright &copy Armin Vakil
 
-Before everything thank you for choosing my project.
+Before anything let me thank you for choosing my project.
 
 1. Release Note
-	This software package release is version 1.0
+	This released beta version of this package is 1.0
 
 	This release supports x86 32bit and 64bit CPU families in Linux.
 
-2. File and folder descriptions
+2. Files and folders descriptions
 	
-	src\	Codes are in that folder
+	src\	Codes are in this folder
 		judge.cpp 	Implementation of the Judge class methods
 		judge.h		Definition of the Judge class instances and methods
 		Judge.pro	Qt Settings for compiling
@@ -22,20 +22,20 @@ Before everything thank you for choosing my project.
 		mainwindow.ui	Graphical user interface of the project
 		Makefile	Compile settings of the project
 
-	Readme.txt	Explanation of the project
+	Readme.txt	The explanation of the project
 	LICENSE		License of the project
-	README.md	Little explanation of the project
+	README.md	A brief explanation of the project
 
 
 3. Package Installation for Linux
-	a. Install packages need to run the project
+	a. The necessary packages to be installed prior to this are as follows:
 	 My project is based on C++ & Qt, so you should install GNU C++ Compiler & Qt Web kit.
 	 For installing these programs you can run these commands in terminal:
 		- sudo apt-get install build-essential
 		- sudo apt-get install libqtwebkit-dev
 
 	b. Compile the project
-	 To compile the project goto the src folder in the project and run "make" command (without quotes) in terminal.
+	 To compile the project, go to the src folder in the project and run "make" command (without quotes) in terminal.
 
 	c. Run the project
 	 If everything goes right you can run the project with running Judge.out file.
